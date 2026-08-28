@@ -1,3 +1,5 @@
+set shell := ["powershell.exe", "-c"]
+
 # Django
 start-server:
     uv run python manage.py runserver

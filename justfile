@@ -19,3 +19,5 @@ dbshell:
 check:
     uv run python manage.py check
 
+test-polls:
+    uv run python manage.py test polls
